@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char c[1];
-    scanf("%s",&c);
+    char c;
+    scanf("%c",&c);
     if(c=='R'){printf("Stop");}
     else if(c=='G'){printf("Go");}
     else if(c=='Y'){printf("Slow Down");}
