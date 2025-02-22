@@ -2,7 +2,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if(ch>=a && ch<=z){printf("Lowercase\n");}
-    else if(ch>=A && ch<=Z){printf("Uppercase\n");}
+    if(ch>=97 && ch<=122){printf("Lowercase\n");}
+    else if(ch>=65 && ch<=90){printf("Uppercase\n");}
     else{printf("Not an alphabet\n");}
 }
