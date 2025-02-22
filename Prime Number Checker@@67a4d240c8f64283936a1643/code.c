@@ -12,7 +12,7 @@ int main(){
             }
         }
         if(v==0){printf("0");}
-        else if(v==1){printf("1");}
+        else {printf("1");}
     }
     return 0;
 }
