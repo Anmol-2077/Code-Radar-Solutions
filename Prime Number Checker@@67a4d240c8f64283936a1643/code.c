@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int n,x,i,v;
+    int n,x,v;
     scanf("%d",&n);
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         v=1;
         scanf("%d",&x);
         for(int j=2;j<=x/2;j++){
